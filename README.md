@@ -16,11 +16,12 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The purpose of the project was to develop a real-time bidirectional Chat-app application using React JS and socketIO
+- Web socket is two-way connect from one end to another, client to server, to push data.
+- Whenever client requests a resource/service, only then server pushes data to network to transported to client. Without a request, a response is never puched by server itslef. In order to create a real time application,  a link between sever and client needs to be present fr server to push data to client whenver an update is seen.
+- For client and server to make a two-way connection, web socket is used, implemented by JS's Socket IO.
+- Socket.IO is a library that enables real-time, bidirectional and event based communication between browser server suing emit and broadcast functions.
+- Express JS is used to implement one end of communication HTML page.
 
 
 ## Technologies Used
@@ -31,7 +32,6 @@
 
 
 ## Features
-List the ready features here:
 - Multiple users can chat online
 - Anyone with the link can join the chat group/app
 - Real time updation of messages between multiple users
@@ -42,42 +42,21 @@ List the ready features here:
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
-Install VS Code
-Install node js and express package
-Download Chat-app folder
-And in command prompt move int0 Chat-app folder and run
-node index.js
-to make server go online "listening to *8003"
-For deployemnt on command prompt:
-donload pm2 globally by moving into Chat-app folder using cmd
-npm install pm2@latest -g
-pm2 start index.js
-And we can see a process being forked, running on our CPU
+- Install VS Code
+- Install node js and express package
+- Download Chat-app folder
+- And in command prompt move int0 Chat-app folder and run
+- node index.js
+- to make server go online "listening to *8003"
+- For deployemnt on command prompt:
+- download pm2 globally by moving into Chat-app folder using cmd
+- npm install pm2@latest -g
+-pm2 start index.js
+-And we can see a process being forked, running on our CPU
 Further, we can see the processes online using pm2 list command.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
 
 ## Project Status
 Project is: _complete_ 
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
 
 ## Acknowledgements
 Give credit here.
@@ -85,13 +64,3 @@ Give credit here.
 - This project was based on [this tutorial](https://www.example.com).
 - Many thanks to...
 
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
