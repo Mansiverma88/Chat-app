@@ -42,6 +42,7 @@ io.on('connection', (socket) => {
       console.log('message: ' + msg);
     });
   });
-server.listen(8003, () => {
+let port=process.env.PORT||8003;
+server.listen(port, () => {
   console.log('listening on *:8003');
 });
