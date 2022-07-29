@@ -1,7 +1,6 @@
 # Chat-app
 > Created a real-time chat app using Node Js Framework Express and Socket.io
->
-## Live Demo: http://localhost:8003/
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
@@ -39,16 +38,13 @@
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
 - Install VS Code
 - Install node js and express package
 - Download Chat-app folder
 - And in command prompt move int0 Chat-app folder and run
 - node index.js
 - to make server go online "listening to *8003"
-- For deployemnt on command prompt:
+- For deployemnt on local server command prompt:
 - download pm2 globally by moving into Chat-app folder using cmd
 - npm install pm2@latest -g
 -pm2 start index.js
@@ -56,11 +52,6 @@ Proceed to describe how to install / setup one's local environment / get started
 Further, we can see the processes online using pm2 list command.
 
 ## Project Status
-Project is: _complete_ 
+Project is: _Incomplete_ 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
